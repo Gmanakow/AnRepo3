@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/mainView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/austrianFlag"
+        android:layout_width="360dp"
+        android:layout_height="240dp"
+        android:background="@color/austrianRed"
+
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.5">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flagHeightBy3"
+            android:layout_centerInParent="true"
+            android:background="@color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/polishFlag"
+        android:layout_width="@dimen/flagWidth"
+        android:layout_height="@dimen/flagHeight"
+        android:background="@color/polishRed"
+
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.5">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flagHeightBy2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/italianFlag"
+        android:layout_width="@dimen/flagWidth"
+        android:layout_height="@dimen/flagHeight"
+        android:background="@color/white"
+
+        android:visibility="gone"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.5">
+
+
+        <View
+            android:layout_width="@dimen/flagWidthBy3"
+            android:layout_height="@dimen/flagHeight"
+
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+
+            android:background="@color/italianGreen" />
+
+        <View
+            android:layout_width="@dimen/flagWidthBy3"
+            android:layout_height="@dimen/flagHeight"
+
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+
+            android:background="@color/italianRed" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/columbianFlag"
+        android:layout_width="@dimen/flagWidth"
+        android:layout_height="@dimen/flagHeight"
+        android:background="@color/columbianYellow"
+
+        android:visibility="gone"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.5">
+
+
+        <View
+            android:layout_width="@dimen/flagWidth"
+            android:layout_height="@dimen/flagHeightBy2"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+
+            android:background="@color/columbianBlue" />
+
+        <View
+            android:layout_width="@dimen/flagWidth"
+            android:layout_height="@dimen/flagHeightBy4"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+
+            android:background="@color/columbianRed" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/madagascarFlag"
+        android:layout_width="@dimen/flagWidth"
+        android:layout_height="@dimen/flagHeight"
+        android:background="@color/madagascarRed"
+
+        android:visibility="gone"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.5">
+
+
+        <View
+            android:layout_width="@dimen/flagWidth"
+            android:layout_height="@dimen/flagHeightBy2"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+
+            android:background="@color/madagascarGreen" />
+
+        <View
+            android:layout_width="@dimen/flagWidthBy3"
+            android:layout_height="@dimen/flagHeight"
+
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+
+            android:background="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/thaiFlag"
+        android:layout_width="@dimen/flagWidth"
+        android:layout_height="@dimen/flagHeight"
+        android:background="@color/thaiRed"
+
+        android:visibility="gone"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.5">
+
+        <View
+            android:layout_width="@dimen/flagWidth"
+            android:layout_height="@dimen/flagHeight2By3"
+
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="@dimen/flagWidth"
+            android:layout_height="@dimen/flagHeightBy3"
+
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+
+            android:background="@color/thaiBlue" />
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/danishFlag"
+        android:layout_width="@dimen/flagWidth"
+        android:layout_height="@dimen/flagHeight"
+        android:background="@color/danishRed"
+
+        android:visibility="gone"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.5">
+
+        <View
+            android:layout_width="@dimen/flagWidth"
+            android:layout_height="@dimen/flagHeightBy4"
+
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintVertical_bias="0.5" />
+
+        <View
+            android:layout_width="@dimen/flagHeightBy4"
+            android:layout_height="@dimen/flagHeight"
+
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.325"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintVertical_bias="0.5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/swissFlag"
+        android:layout_width="@dimen/flagHeight"
+        android:layout_height="@dimen/flagHeight"
+        android:background="@color/danishRed"
+
+        android:visibility="gone"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.5">
+
+        <View
+            android:layout_width="@dimen/flagHeight2By3"
+            android:layout_height="@dimen/flagHeightBy6"
+
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintVertical_bias="0.5" />
+
+        <View
+            android:layout_width="@dimen/flagHeightBy6"
+            android:layout_height="@dimen/flagHeight2By3"
+
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintVertical_bias="0.5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
