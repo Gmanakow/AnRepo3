@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HW3LoremPicsumApp</string>
+    <string name="search">search</string>
+
+
+    <string name="urlPlaceHolder">https://picsum.photos/400/600</string>
+</resources>
