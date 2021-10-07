@@ -7,6 +7,7 @@ import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import java.net.HttpURLConnection
 import java.net.URL
@@ -49,7 +50,9 @@ class MainActivity : AppCompatActivity() {
                 }
 
             } catch (e : java.lang.Exception) {
-                Log.e("error", e.toString())
+                runOnUiThread{
+                    Toast.makeText(this, "err", Toast.LENGTH_SHORT).show()
+                }
             }
         }.start()
 
