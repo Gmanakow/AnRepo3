@@ -4,4 +4,5 @@
 
 
     <string name="urlPlaceHolder">https://picsum.photos/400/600</string>
+    <string name="picasso">picasso</string>
 </resources>
